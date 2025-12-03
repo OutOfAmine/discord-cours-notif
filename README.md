@@ -60,18 +60,6 @@ Environment Variables
 | `MOODLE_ID1_TOKEN`     | Moodle user ID cookie (from browser)         |
 | `DISCORD_WEBHOOK_URL`  | Discord webhook URL to receive notifications |
 
-
-
-File Structure
-
-.
-├── script.py           # Main Python script
-├── courses_list.json    # Stores fetched courses
-├── bbb_history.json     # Stores notification history
-├── .env                 # Environment variables (not committed)
-└── README.md            # This file
-
-
 Notes
 
 Supports parsing dates in French formats (e.g., "15 janvier 2025 14:30") and ISO formats.
